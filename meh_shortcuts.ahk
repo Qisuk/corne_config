@@ -40,7 +40,8 @@ SoundBeep, 750, 500
 ^!+o::CycleWindowsByTitle("- Outlook", "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE")
 ^!+q::CycleWindowsByTitle("- Microsoft SQL Server Management Studio", "C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe")
 ^!+p::CycleWindowsByTitle("Postman", "C:\Users\cmoir\AppData\Local\Postman\Postman.exe")
-;^!+G::CycleWindowsByTitle("Google Chrome", "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe")
+^!+w::CycleWindowsByTitle("Wireshark", "C:\Program Files\Wireshark\Wireshark.exe")
+
 return
 
 CycleWindowsByTitle(appTitle, exePath) {
