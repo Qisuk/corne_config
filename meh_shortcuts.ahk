@@ -29,7 +29,7 @@ SoundBeep, 750, 500
 ;swap meh(^!+s) with (CapsLock) to use caps as modifier
 
 
-^!+n::CycleWindowsByTitle("Notepad", "%windir%\\system32\\notepad.exe")
+^!+n::CycleWindowsByTitle("Notepad", "C:\WINDOWS\system32\notepad.exe")
 ^!+e::CycleWindowsByTitle("- Excel", "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE")
 ^!+c::CycleWindowsByTitle("Visual Studio Code", "C:\\Users\\cmoir\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
 ^!+g::CycleWindowsByTitle("Google Chrome", "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe")
@@ -41,6 +41,7 @@ SoundBeep, 750, 500
 ^!+q::CycleWindowsByTitle("- Microsoft SQL Server Management Studio", "C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe")
 ^!+p::CycleWindowsByTitle("Postman", "C:\Users\cmoir\AppData\Local\Postman\Postman.exe")
 ^!+w::CycleWindowsByTitle("Wireshark", "C:\Program Files\Wireshark\Wireshark.exe")
+^!+r::CycleWindowsByTitle("Remote Desktop Connection", "C:\WINDOWS\system32\mstsc.exe")
 
 return
 
